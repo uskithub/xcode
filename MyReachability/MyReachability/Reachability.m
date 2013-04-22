@@ -56,10 +56,11 @@
 
 #import "Reachability.h"
 
-//#define kShouldPrintReachabilityFlags 1
+#define kShouldPrintReachabilityFlags 1
 
 static void PrintReachabilityFlags(SCNetworkReachabilityFlags    flags, const char* comment)
 {
+#if kShouldPrintReachabilityFlags
 	
     NSLog(@"Reachability Flag Status: %c%c %c%c%c%c%c%c%c %s\n",
 			(flags & kSCNetworkReachabilityFlagsIsWWAN)				  ? 'W' : '-',
@@ -74,6 +75,7 @@ static void PrintReachabilityFlags(SCNetworkReachabilityFlags    flags, const ch
 			(flags & kSCNetworkReachabilityFlagsIsDirect)             ? 'd' : '-',
 			comment
 			);
+#endif
 }
 
 static void ReachabilityCallback(SCNetworkReachabilityRef target, SCNetworkReachabilityFlags flags, void* info)
