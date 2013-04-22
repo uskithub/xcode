@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="14" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="303" translatesAutoresizingMaskIntoConstraints="NO" id="vgR-CI-bSK">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="99" id="Hs6-zP-fXH"/>
+                                    <constraint firstAttribute="width" constant="303" id="gvP-3Y-BSW"/>
+                                </constraints>
+                                <string key="text">Cellular data network is available.
+Internet traffic will be routed through it.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="Riy-9t-bLL">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="FBV-Rd-Nhq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="g7B-p7-PW8">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="2Ge-XY-Y5v"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="cL0-ck-Xw9">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="eR2-LP-2Xa"/>
+                                    <constraint firstAttribute="width" constant="240" id="pLF-VF-Now"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Remote Host:" clearsOnBeginEditing="YES" minimumFontSize="29" translatesAutoresizingMaskIntoConstraints="NO" id="6ux-FE-20r">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="Crl-yK-WdI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="RKw-pk-uAD">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="X9f-vh-Oy0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="TCP/IP Routing Available" clearsOnBeginEditing="YES" minimumFontSize="29" translatesAutoresizingMaskIntoConstraints="NO" id="XgT-tM-Rfn">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="eSI-cJ-oe7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="yja-MO-BHd"/>
+                            <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="6ld-fD-rkt">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="b9v-vE-Quu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Local WiFi" clearsOnBeginEditing="YES" minimumFontSize="29" translatesAutoresizingMaskIntoConstraints="NO" id="v9J-Zu-8Sb">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="PSG-Ud-AYc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XgT-tM-Rfn" firstAttribute="leading" secondItem="Riy-9t-bLL" secondAttribute="leading" type="default" id="0LS-jw-3RR"/>
+                            <constraint firstItem="cL0-ck-Xw9" firstAttribute="leading" secondItem="Riy-9t-bLL" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="0nb-rT-MP2"/>
+                            <constraint firstItem="vgR-CI-bSK" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="0zy-bg-hey"/>
+                            <constraint firstItem="yja-MO-BHd" firstAttribute="bottom" secondItem="6ld-fD-rkt" secondAttribute="bottom" type="default" id="3bk-9X-9ex"/>
+                            <constraint firstItem="6ld-fD-rkt" firstAttribute="leading" secondItem="yja-MO-BHd" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="4kH-fC-p9q"/>
+                            <constraint firstItem="RKw-pk-uAD" firstAttribute="trailing" secondItem="v9J-Zu-8Sb" secondAttribute="trailing" type="default" id="8oj-rz-zpS"/>
+                            <constraint firstItem="RKw-pk-uAD" firstAttribute="leading" secondItem="6ld-fD-rkt" secondAttribute="leading" type="default" id="DCP-LN-qp5"/>
+                            <constraint firstItem="XgT-tM-Rfn" firstAttribute="trailing" secondItem="cL0-ck-Xw9" secondAttribute="trailing" type="default" id="F61-vT-U28"/>
+                            <constraint firstItem="RKw-pk-uAD" firstAttribute="leading" secondItem="g7B-p7-PW8" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="JvH-Ld-6l7"/>
+                            <constraint firstItem="6ux-FE-20r" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="21" id="NC7-Ue-F4y"/>
+                            <constraint firstItem="yja-MO-BHd" firstAttribute="centerY" secondItem="6ld-fD-rkt" secondAttribute="centerY" type="default" id="Uym-8c-n9v"/>
+                            <constraint firstItem="Riy-9t-bLL" firstAttribute="centerY" secondItem="cL0-ck-Xw9" secondAttribute="centerY" type="default" id="VM6-uR-NMT"/>
+                            <constraint firstItem="v9J-Zu-8Sb" firstAttribute="leading" secondItem="g7B-p7-PW8" secondAttribute="leading" type="default" id="Vgm-0X-aYx"/>
+                            <constraint firstItem="6ux-FE-20r" firstAttribute="trailing" secondItem="cL0-ck-Xw9" secondAttribute="trailing" type="default" id="W3U-S3-9Rr"/>
+                            <constraint firstItem="XgT-tM-Rfn" firstAttribute="top" secondItem="3" secondAttribute="top" constant="112" id="alB-Or-NGa"/>
+                            <constraint firstItem="Riy-9t-bLL" firstAttribute="leading" secondItem="6ux-FE-20r" secondAttribute="leading" type="default" id="cQM-fl-UST"/>
+                            <constraint firstItem="XgT-tM-Rfn" firstAttribute="trailing" secondItem="RKw-pk-uAD" secondAttribute="trailing" type="default" id="ctC-q8-x29"/>
+                            <constraint firstItem="v9J-Zu-8Sb" firstAttribute="top" secondItem="3" secondAttribute="top" constant="211" id="eP3-RK-Ym5"/>
+                            <constraint firstItem="g7B-p7-PW8" firstAttribute="leading" secondItem="XgT-tM-Rfn" secondAttribute="leading" type="default" id="fje-ji-3yo"/>
+                            <constraint firstItem="cL0-ck-Xw9" firstAttribute="bottom" secondItem="Riy-9t-bLL" secondAttribute="bottom" type="default" id="gvZ-70-SWN"/>
+                            <constraint firstItem="cL0-ck-Xw9" firstAttribute="top" secondItem="6ux-FE-20r" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="j98-Mx-AD3"/>
+                            <constraint firstItem="6ux-FE-20r" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="kvp-bV-bzg"/>
+                            <constraint firstItem="g7B-p7-PW8" firstAttribute="top" secondItem="RKw-pk-uAD" secondAttribute="top" type="default" id="lGY-sU-9Ff"/>
+                            <constraint firstItem="yja-MO-BHd" firstAttribute="top" secondItem="v9J-Zu-8Sb" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="poF-WY-VCN"/>
+                            <constraint firstItem="6ld-fD-rkt" firstAttribute="trailing" secondItem="v9J-Zu-8Sb" secondAttribute="trailing" type="default" id="q5l-vC-cIp"/>
+                            <constraint firstItem="cL0-ck-Xw9" firstAttribute="leading" secondItem="RKw-pk-uAD" secondAttribute="leading" type="default" id="rof-eZ-Yc9"/>
+                            <constraint firstAttribute="bottom" secondItem="vgR-CI-bSK" secondAttribute="bottom" constant="48" id="tgT-yl-lCP"/>
+                            <constraint firstItem="g7B-p7-PW8" firstAttribute="top" secondItem="3" secondAttribute="top" constant="150" id="wId-yS-mxS"/>
+                            <constraint firstItem="yja-MO-BHd" firstAttribute="leading" secondItem="v9J-Zu-8Sb" secondAttribute="leading" type="default" id="zSP-6p-A60"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="internetConnectionIcon" destination="g7B-p7-PW8" id="bbv-B5-YZH"/>
+                        <outlet property="internetConnectionStatusField" destination="RKw-pk-uAD" id="ULr-bC-6m5"/>
+                        <outlet property="localWiFiConnectionIcon" destination="yja-MO-BHd" id="LVt-pr-sfl"/>
+                        <outlet property="localWiFiConnectionStatusField" destination="6ld-fD-rkt" id="byi-xV-kK0"/>
+                        <outlet property="remoteHostIcon" destination="Riy-9t-bLL" id="x2G-Kj-3Sh"/>
+                        <outlet property="remoteHostLabel" destination="6ux-FE-20r" id="JBH-kG-IW2"/>
+                        <outlet property="remoteHostStatusField" destination="cL0-ck-Xw9" id="cXu-Wi-5Xp"/>
+                        <outlet property="summaryLabel" destination="vgR-CI-bSK" id="ca0-U6-LqV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
